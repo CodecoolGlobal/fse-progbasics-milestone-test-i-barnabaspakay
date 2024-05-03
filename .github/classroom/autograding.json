@@ -1,0 +1,44 @@
+{
+    "tests": [
+      {
+        "name": "Test average age of adults",
+        "setup": "npm install",
+        "run": "npm run test-average",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 5,
+        "points": 30
+      },
+      {
+        "name": "Test count confirmed",
+        "setup": "npm install",
+        "run": "npm run test-count",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 5,
+        "points": 30
+      },
+      {
+        "name": "Test filter divisible",
+        "setup": "npm install",
+        "run": "npm run test-filter",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 5,
+        "points": 30
+      },
+      {
+        "name": "Test find abacus",
+        "setup": "npm install",
+        "run": "npm run test-find",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 5,
+        "points": 30
+      }
+    ]
+  }
