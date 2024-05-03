@@ -9,7 +9,8 @@ If the array is empty then it should return an empty array.
  */
 
 function filterDivisible(numbers, divisor) {
-
+    if (divisor === 0) return null;
+    return numbers.filter(num => num % divisor === 0);
 }
 
 module.exports = filterDivisible;

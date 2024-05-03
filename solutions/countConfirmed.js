@@ -15,7 +15,13 @@ If you receive an array which contains only one user object where the isConfirme
 */
 
 function countConfirmed(users) {
-
+  let numberOfConfirmed = 0;
+  for (let user of users) {
+    if (user.isConfirmed === true) {
+      numberOfConfirmed++;
+    }
+  }
+  return numberOfConfirmed;
 }
 
 module.exports = countConfirmed;
